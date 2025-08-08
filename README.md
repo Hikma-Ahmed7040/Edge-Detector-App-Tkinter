@@ -1,11 +1,11 @@
-# 🖼️ Edge Detector App
+#  Edge Detector App
 
 A beginner-friendly GUI application to perform **edge detection and image processing** using Python's `OpenCV`, `PIL`, and `Tkinter`.   
 This tool helps visualize and apply common edge detection techniques with ease, making it perfect for learners and developers experimenting with computer vision.
 
 ---
 
-## 📌 Features
+##  Features
 
 ✅ Load and display any image (JPG, PNG, JPEG)  
 ✅ Apply edge detection techniques:
@@ -23,7 +23,7 @@ This tool helps visualize and apply common edge detection techniques with ease, 
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 - Python 3.12+
 - OpenCV (`cv2`)
@@ -38,7 +38,6 @@ This tool helps visualize and apply common edge detection techniques with ease, 
 |----------|-------|-------|-----------|
 | ![original](./images/original.png) | ![canny](./images/canny.png) | ![sobel](./images/sobel.png) | ![laplacian](./images/laplician.png) |
 
-> 💡 You can add your own images under a `/demo` folder to show more examples!
 
 ---
 
@@ -54,7 +53,7 @@ This tool helps visualize and apply common edge detection techniques with ease, 
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
