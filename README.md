@@ -1,62 +1,54 @@
-#  Edge Detector App
+#  Face Recognition – Ethiopian Icons 🇪🇹
 
-A beginner-friendly GUI application to perform **edge detection and image processing** using Python's `OpenCV`, `PIL`, and `Tkinter`.   
-This tool helps visualize and apply common edge detection techniques with ease, making it perfect for learners and developers experimenting with computer vision.
+This project is part of my **6-month learning journey** to become a Computer Vision Specialist.  
+It uses OpenCV to recognize 3 well-known Ethiopians.
 
----
+## 👩‍💻 Recognized People
+- Haile Selassie
+- Meles Zenawi (a bit tricky due to glasses)
+- Liya Kebede
 
-##  Features
+## ⚙️ Technologies
+- Python
+- OpenCV
+- Haarcascade (face detection)
+- LBPHFaceRecognizer (face recognition)
 
-✅ Load and display any image (JPG, PNG, JPEG)  
-✅ Apply edge detection techniques:
-- Canny
-- Sobel
-- Laplacian
-
-✅ Apply image processing methods:
-- Gaussian Blur
-- Thresholding
-
-✅ Reset to original image  
-✅ Save processed image  
-✅ Clean and responsive Tkinter GUI  
-
----
-
-##  Technologies Used
-
-- Python 3.12+
-- OpenCV (`cv2`)
-- PIL (`Pillow`)
-- Tkinter
+## 💡 What I Learned
+- Face detection with Haar cascades
+- Preprocessing images: converting to grayscale
+- Training and predicting faces using OpenCV
+- Drawing bounding boxes and adding labels
 
 ---
 
-## 📸 Demo
+## 📸 Demo Outputs
 
-| Original | Canny | Sobel | Laplacian |
-|----------|-------|-------|-----------|
-| ![original](./images/original.png) | ![canny](./images/canny.png) | ![sobel](./images/sobel.png) | ![laplacian](./images/laplician.png) |
+<table>
+  <tr>
+    <th>🔍 Input Image</th>
+    <th>✅ Recognition Result</th>
+  </tr>
+  <tr>
+    <td><img src="./imagesForDescription/original.png" width="200"/></td>
+    <td><img src="./imagesForDescription/detected.png" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="./imagesForDescription/haileOriginal.png" width="200"/></td>
+    <td><img src="./imagesForDescription/hailePredicted.png" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="./imagesForDescription/melesOriginal.png" width="200"/></td>
+    <td><img src="./imagesForDescription/melesPredicted.png" width="200"/></td>
+  </tr>
+</table>
 
+> All demo images are located in the `/imagesForDescription` folder.
 
 ---
 
-## 🧠 How It Works
-
-- **Image Loading**: Reads image and resizes it for display.
-- **Edge Detection**: Converts image to grayscale and applies filters using `cv2`:
-  - `cv2.Canny()`
-  - `cv2.Sobel()`
-  - `cv2.Laplacian()`
-- **Preprocessing**: Optionally applies Gaussian blur or thresholding.
-- **Tkinter GUI**: A structured UI for interaction and previewing results.
-
----
-
-##  Getting Started
-
-### 1. Clone the repository
+## 🧪 How to Run
 
 ```bash
-git clone https://github.com/yourusername/Edge-Detector-App.git
-cd Edge-Detector-App
+pip install opencv-python
+python Face_recognition.py
