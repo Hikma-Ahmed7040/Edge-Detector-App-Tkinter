@@ -1,6 +1,6 @@
 # 🖼️ Edge Detector App
 
-A beginner-friendly GUI application to perform **edge detection and image processing** using Python's `OpenCV`, `PIL`, and `Tkinter`.  
+A beginner-friendly GUI application to perform **edge detection and image processing** using Python's `OpenCV`, `PIL`, and `Tkinter`.   
 This tool helps visualize and apply common edge detection techniques with ease, making it perfect for learners and developers experimenting with computer vision.
 
 ---
@@ -36,7 +36,7 @@ This tool helps visualize and apply common edge detection techniques with ease, 
 
 | Original | Canny | Sobel | Laplacian |
 |----------|-------|-------|-----------|
-| ![original](demo/original.jpg) | ![canny](demo/canny.jpg) | ![sobel](demo/sobel.jpg) | ![laplacian](demo/laplacian.jpg) |
+| ![original](./images/original.png) | ![canny](./images/canny.png) | ![sobel](./images/sobel.png) | ![laplacian](./images/laplician.png) |
 
 > 💡 You can add your own images under a `/demo` folder to show more examples!
 
